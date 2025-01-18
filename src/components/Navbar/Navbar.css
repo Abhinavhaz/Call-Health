@@ -1,0 +1,110 @@
+/* .Nav1{
+    padding:0px 10px 0px 10px;
+    background-color: #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navleft{
+    width:max-content;
+    background-color: #f0c6c6;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navleft>img{
+    width: auto;
+    height:140px;
+}
+
+.Navright{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #beefcf;
+} */
+.Nav1 {
+   padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white; /* Light background color for better contrast */
+    height: 70px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    /* border-bottom: 1px solid black; */
+}
+
+.Navleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+}
+
+.Navleft > img {
+    width: auto;
+    height: 150px; /* Adjusted height for a more standard navbar size */
+    object-fit: contain; /* Ensures the logo maintains its aspect ratio */
+}
+
+.Navleft > p {
+    /* margin-left:20px ; */
+    font-size: 16px;
+    
+    color: #333; /* Neutral text color */
+    cursor: pointer;
+}
+
+.Navright {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between icons */
+}
+
+.Navright > div {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #333; /* Neutral text color */
+}
+
+.Navright > div:hover {
+    color: #007bff; /* Add hover effect for better interactivity */
+}
+
+/* .Navright > svg {
+    font-size: 20px;
+   background-size: 100px;
+   border-radius: 50%;
+   background-color: #c5c0c0;
+    cursor: pointer;
+   
+}
+
+.Navright > svg:hover {
+    color: #007bff; 
+} */
+.Navright > svg {
+    font-size: 20px; /* Icon size */
+    width: 40px; /* Adjusted width for circular shape */
+    height: 40px; /* Adjusted height for circular shape */
+    border-radius: 50%; /* Makes it circular */
+    background-color: #f2eded; /* Grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures the icon is centered */
+    cursor: pointer;
+    box-sizing: border-box; /* Ensures padding does not affect dimensions */
+    padding: 8px; /* Inner padding to create space between the icon and the border */
+}
+
+.Navright > svg:hover {
+    color: #007bff; /* Changes the icon color on hover */
+    background-color: #e0e0e0; /* Light grey hover effect for background */
+}

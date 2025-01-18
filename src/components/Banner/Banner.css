@@ -1,0 +1,68 @@
+.Bimg{
+    height: 450px;
+    width: auto;
+}
+.Banner{
+    padding: 0px 10px 0px 1px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px; 
+    border-bottom: 1px solid silver;
+    margin-bottom: 50px;
+}
+
+
+.Bannerright{
+   
+    width: 100%;
+}
+/* style={{ display: "flex", alignItems: "center", height: "50px", width: "800px", backgroundColor: "white", borderRadius: "20px", }} */
+.input{
+
+display: flex;
+align-items: center;
+height: auto;
+width: 90%;
+background-color: #dbd6d6;
+border-radius: 20px;
+}
+.input2{
+     height:50px;width:250px;background-color:#273990;color:white;display:flex;align-items: center;border-radius:25px;padding: 2px;
+}
+/* .input>input{
+ width: 300%;
+ height: 50px ;
+ border-radius: 20px;
+  border: none;
+} */
+/* style={{height:"130px",width:"120px",border:"1px solid grey", display:"flex",flexDirection:"column",justifyContent:"flex-end",alignItems:"center",textAlign:"center",}} */
+/* style={{width:"auto",height:"40px",margin:"50px 0px 0px 30px"}} */
+.UnderPhoto {
+    height: 130px;
+    width: 120px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+   
+}
+.frame{
+    display: flex;
+    gap: 20px;
+
+}
+
+.img2 {
+    width: auto;
+    height: 50px;
+
+}
+.frame .UnderPhoto:nth-child(1) .img2 {
+    margin-top:   20px;
+    margin-left: 20px;
+}
